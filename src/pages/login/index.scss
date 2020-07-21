@@ -1,0 +1,27 @@
+/*
+ * @Author: caiwei
+ * @Email: caiwei@qunhemail.com
+ * @Date: 2020-07-17 16:34:25
+ * @Last Modified by: caiwei
+ * @Last Modified time: 2020-07-17 16:56:49
+ * @Description: Description
+ */
+ .wrap-login{
+    width:100vw;
+    height:100vh;
+    // background: rgb(108, 17, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .login-view{
+        width:50%;
+        height:60%;
+        padding:40px 50px;
+        background: #eee;
+        .title{
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+ }

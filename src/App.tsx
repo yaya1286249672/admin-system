@@ -15,9 +15,10 @@ function App({}) {
       <Router>
         {/* </header> */}
         <Switch>
-          <Route path="/login" component={Login} />
+          <Route path="/login" key="123" component={Login} />
           <Route
             path="/"
+            // exact
             render={() => {
               return (
                 <div>
@@ -40,6 +41,7 @@ function App({}) {
               );
             }}
           />
+          {/* <Redirect from="/*" to="/"/> */}
         </Switch>
       </Router>
     </div>
