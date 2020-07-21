@@ -21,8 +21,10 @@ const LoginForm = () => {
     console.log('Success:', values);
     const { username, password } = values;
     if (username === "admin" && password === "123456") {
-      // Router.push('/home')
-      history.push('/')
+      // Router.push('/home');
+      console.log(1233);
+      
+      history.push('/home')
     }
   };
 
